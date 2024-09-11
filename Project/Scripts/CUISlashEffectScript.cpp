@@ -86,7 +86,7 @@ void CUISlashEffectScript::Progress()
     CTransform* pTr = Transform();
     if (nullptr != pTr)
     {
-        m_fRatio = Lerp(m_fRatio, 1.f, DT * 10.f);
+        m_fRatio = Lerp(m_fRatio, 1.f, DT * m_fLerpSpeed);
         Vec3 vScale = m_vOriginScale;
         vScale.x = m_fRatio;
 

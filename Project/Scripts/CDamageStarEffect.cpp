@@ -165,8 +165,11 @@ void CDamageStarEffect::Exit()
 
 void CDamageStarEffect::TrackCamera()
 {
-    Vec3 LookDir = (CAMERACTRL->GetOwner()->Transform()->GetWorldPos() - Transform()->GetWorldPos()).Normalize();
-    Transform()->SetDirection(LookDir);
+    if (CAMERACTRL)
+    {
+        Vec3 LookDir = (CAMERACTRL->GetOwner()->Transform()->GetWorldPos() - Transform()->GetWorldPos()).Normalize();
+        Transform()->SetDirection(LookDir);
+    }
 }
 
 void CDamageStarEffect::Scaling(bool _bFlag)

@@ -299,13 +299,13 @@
       <Filter>State\KirbyState\DropAbility</Filter>
     </ClInclude>
     <ClInclude Include="CBladeKnightScript.h">
-      <Filter>Scripts\Character\Monster\MonsterScript\BladeKnight</Filter>
+      <Filter>Scripts\Character\Monster\MonsterScript\GordoLong\BladeKnight</Filter>
     </ClInclude>
     <ClInclude Include="CDetectAreaScript.h">
       <Filter>Scripts\Character\Monster\Utill\Detect</Filter>
     </ClInclude>
     <ClInclude Include="CBladeKnightSwordScript.h">
-      <Filter>Scripts\Character\Monster\MonsterScript\BladeKnight</Filter>
+      <Filter>Scripts\Character\Monster\MonsterScript\GordoLong\BladeKnight</Filter>
     </ClInclude>
     <ClInclude Include="CNoddyScript.h">
       <Filter>Scripts\Character\Monster\MonsterScript\Noddy</Filter>
@@ -1318,13 +1318,13 @@
       <Filter>State\KirbyState\DropAbility</Filter>
     </ClCompile>
     <ClCompile Include="CBladeKnightScript.cpp">
-      <Filter>Scripts\Character\Monster\MonsterScript\BladeKnight</Filter>
+      <Filter>Scripts\Character\Monster\MonsterScript\GordoLong\BladeKnight</Filter>
     </ClCompile>
     <ClCompile Include="CDetectAreaScript.cpp">
       <Filter>Scripts\Character\Monster\Utill\Detect</Filter>
     </ClCompile>
     <ClCompile Include="CBladeKnightSwordScript.cpp">
-      <Filter>Scripts\Character\Monster\MonsterScript\BladeKnight</Filter>
+      <Filter>Scripts\Character\Monster\MonsterScript\GordoLong\BladeKnight</Filter>
     </ClCompile>
     <ClCompile Include="CNoddyScript.cpp">
       <Filter>Scripts\Character\Monster\MonsterScript\Noddy</Filter>
@@ -2363,9 +2363,6 @@
     <Filter Include="Scripts\Character\Monster\MonsterScript">
       <UniqueIdentifier>{f0691795-11fc-4ec7-94cb-617a5c369983}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Scripts\Character\Monster\MonsterScript\BladeKnight">
-      <UniqueIdentifier>{902be184-f8ba-495f-a2a6-88673c9b2cfa}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Scripts\Character\Monster\MonsterScript\GhostGordo">
       <UniqueIdentifier>{4e70f052-ae78-4305-ac91-3b2fd98a090c}</UniqueIdentifier>
     </Filter>
@@ -3184,6 +3181,9 @@
     </Filter>
     <Filter Include="Scripts\Common\AutoDelete">
       <UniqueIdentifier>{d4dcc17f-ce62-4c4e-a9fb-4b02eeaae16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Character\Monster\MonsterScript\GordoLong\BladeKnight">
+      <UniqueIdentifier>{902be184-f8ba-495f-a2a6-88673c9b2cfa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
