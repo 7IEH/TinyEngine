@@ -51,7 +51,7 @@ void CUIDashEffectScript::SetBackGroundAlpha(const float _fValue)
 
 void CUIDashEffectScript::begin()
 {
-    ChangeState(DashEffectState::Stop);
+    ChangeState(DashEffectState::Start);
     m_fRatioSpeed = 0.3f;
 
     if (MeshRender())

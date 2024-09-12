@@ -235,7 +235,7 @@ void CGhostGordoScript::Move(Vec3 _vTraget)
     Transform()->SetWorldRotation(qLerp);
 
     // 2. GhostGordo는 Y 축으로도 이동함
-    Rigidbody()->SetVelocity(vMoveDir * GetCurInfo().Speed * DT);
+    Rigidbody()->SetVelocity(vMoveDir * GetCurInfo().Speed);
 }
 
 /////////////////////////// FIND FSM //////////////////////////////////

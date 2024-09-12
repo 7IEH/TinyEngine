@@ -377,7 +377,7 @@ void CKabuScript::CircleMove()
     if (m_bInverse)
         vPatrolDir *= -1.f;
 
-    Rigidbody()->SetVelocity(vPatrolDir * GetCurInfo().Speed * DT);
+    Rigidbody()->SetVelocity(vPatrolDir * GetCurInfo().Speed);
 
     // 현재 위치와 도착 위치 각도 체크
     if (m_bHalfCurved)
@@ -422,7 +422,7 @@ void CKabuScript::LinearMove(bool _moveZ)
 
     m_vDir.y = 0.f;
 
-    Rigidbody()->SetVelocity(m_vDir * GetCurInfo().Speed * DT + Vec3(0.f, -9.81f, 0.f));
+    Rigidbody()->SetVelocity(m_vDir * GetCurInfo().Speed + Vec3(0.f, -9.81f, 0.f));
 
     if (_moveZ)
     {

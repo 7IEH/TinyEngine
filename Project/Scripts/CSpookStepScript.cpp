@@ -322,7 +322,7 @@ void CSpookStepScript::Find()
 void CSpookStepScript::Move()
 {
     RotatingToTarget();
-    Rigidbody()->SetVelocity(Transform()->GetWorldDir(DIR_TYPE::FRONT) * GetCurInfo().Speed * DT);
+    Rigidbody()->SetVelocity(Transform()->GetWorldDir(DIR_TYPE::FRONT) * GetCurInfo().Speed);
 
     if (nullptr == GetTarget())
     {

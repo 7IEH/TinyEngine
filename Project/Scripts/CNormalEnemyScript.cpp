@@ -526,7 +526,7 @@ void CNormalEnemyScript::PatrolMove()
 
     Transform()->SetWorldRotation(vPatrlQuat);
 
-    Rigidbody()->SetVelocity(vFront * GetCurInfo().Speed * DT + vTemp * 3.5f * DT + Vec3(0.f, -9.81f, 0.f));
+    Rigidbody()->SetVelocity(vFront * GetCurInfo().Speed + vTemp * 3.5f + Vec3(0.f, -9.81f, 0.f));
 }
 
 ///////////////////////////// FIND FSM ///////////////////////////////////////
